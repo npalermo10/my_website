@@ -1,45 +1,56 @@
 <html>
     <head>
-	<title>My Demo Webpage</title>
-	<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<style>
-	 .bg {
-             background:url('http://i.imgur.com/g3IDT33.jpg');
-	     background-size:cover;
+        <title>My Demo Webpage</title>
+        <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <style>
+         .bg {
+             background:linear-gradient( rgba(30, 0, 0, 0.25), rgba(30, 0, 0, 0.25) ),url('http://i.imgur.com/g3IDT33.jpg');
+             background-size:cover;
              color:#ecf0f1;
-	     margin-top: 7%;
-	 }
-	 .profile_pic{
+             margin-top: 7%;
+
+         }
+         .profile_pic{
              height:300px;
-	     width:300px;
-	     border-radius:50%;
-	 }
-	 a{
-	     color:#ecf0f1;
-	     text-decoration:none
-	 }
+             width:400px;
+             border-radius:50%;
+             box-shadow: 2px 5px 5px black;
+             filter: brightness(98%);
+         }
+         .text{
+             color:white;
+             text-shadow: 2px 2px black;
+         }
+         a{
+             color:#ecf0f1;
+             text-decoration:none
+         }
 
-	 a:hover{
-	     color:#f1c40f
-	 }
+         a:hover{
+             color:Chartreuse
+         }
 
-	</style>
+        </style>
     </head>
     <body class="bg">
-	<center>
-	    <img class="profile_pic" src = "http://petus.imageg.net/PETNA_36/pimg/pPETNA-4032756_main_r200.jpg" alt = "My profile image">
-	    <h1>Nicholas Palermo</h1>
-            <h3>PhD Candidate, Biologists: Honeybee Researcher</h3>
-            <h4>at Florida International University</h4>
-	    <a target="_blank" href ="http://github.com/npalermo10">
-		<i class="fa fa-3x fa-github-square" aria-hidden="true"></i>
-	    </a>
-	    <a href ="mailto:npale005@fiu.edu">
-		<i class="fa fa-3x fa-envelope-square" aria-hidden="true"></i>
-	    </a>
-	    <p>    
-            </p>
-	</center>
+        <center>
+            <img class="profile_pic" src = "https://scontent-mia1-2.xx.fbcdn.net/v/t1.0-9/561793_10151058165581567_664524530_n.jpg?oh=022295195bfc4cd5f44b55b7d6fc08bb&oe=5846281A" alt = "My profile image">
+            <h1 class="text" >Nicholas Palermo</h1>
+            <h3 class="text">PhD Candidate Biological Sciences <br> Honeybee Researcher at Florida International University</h3>
+        </center>
+        <a target="_blank" href ="http://github.com/npalermo10">
+            <i class="fa fa-2x fa-book" style="text-shadow: 2px 2px black" aria-hidden="true">Publications</i>
+        </a>
+        <br>
+        <a target="_blank" href ="http://github.com/npalermo10">
+            <i class="fa fa-github-square" style="text-shadow: 2px 2px black" aria-hidden="true">My Github Page</i>
+        </a>
+        <br>
+        <a href ="mailto:npale005@fiu.edu">
+            <i class="fa fa-envelope-square" style="text-shadow: 2px 2px black" aria-hidden="true">Email Me</i>
+        </a>
+        <p>
+        </p>
+
     </body>
-<html>
-    
+    <html>
